@@ -1,6 +1,15 @@
 import java.util.*;
 
 // Merge Sort Example
+
+/* In this code, we first define an array arr with some unsorted elements.
+We then call the mergeSort function, which recursively sorts the array using a divide-and-conquer approach.
+The mergeSort function splits the array into two halves, sorts each half recursively using the mergeSort function,
+and then merges the two sorted halves using the merge function.
+The merge function creates two temporary arrays to hold the left and right sub-arrays,
+and then merges them back into the original array in sorted order.
+*/
+
 public class App {
     public static void main(String[] args) {
         int[] arr = {64, 34, 25, 12, 22, 11, 90};
